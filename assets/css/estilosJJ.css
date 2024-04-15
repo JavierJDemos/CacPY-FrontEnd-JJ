@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap')
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000*/
+
+
+.nunito-sans-700 {
+    font-family: "Nunito Sans";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+
+.m-plus-rounded-1c-regular {
+    font-family: "M PLUS Rounded 1c";
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    background-color: #dff0f8;
+}
+
+header {
+    background-color: #fff;
+    padding: 0 15px 15px 0;
+    
+}
+
+header #logo {
+    display: flex;
+    align-items: center; /* Center vertically */
+           
+}
+
+#span1 {
+    font-family: "M PLUS Rounded 1c";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3rem;
+    padding: auto;
+    margin: 0;
+    color: #3d7508;
+}
+
+#span2 {
+    font-family: "M PLUS Rounded 1c";
+    font-weight: 400;
+    font-style: italic;
+    padding: auto;
+    margin: 0;
+    color: #3d7508;
+    }
+
+nav {
+    /*background-color: #3d7508;*/
+    background:rgb(31, 56, 34);
+    font-weight: 700;
+    margin: 20px 0 0 0;
+    padding: 10px;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline blue;
+}
+
+body {
+    background-color: #ffffff;
+    color: #3d7508;
+}
+
+p {
+    text-align: center;
+    color: black;
+}
+
+main {
+    background-color: #ffffff;
+    padding: 10px 10px 15px 15px;
+
+}
+
+main h3 {
+    color: #3d7508;
+    text-align: center;
+}
+
+main section {
+    
+    padding: 15px 15px 0 0 ;   
+}
+
+main section h4 {
+    text-align: center;
+    padding: 5px 0;
+}
+
+#mapa  {
+    text-align: center;
+    
+}
+main iframe {
+    border: 0;
+    padding: 10px;
+    
+}
+
+#productos {
+    text-decoration: none;
+}
+/* SlideShow*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  box-sizing:border-box
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+#contacto {
+    padding: 20px;
+    text-align: center;
+}
+
+.svg-inline-contactos {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em
+}
+
+
+#contacto form {
+    padding: 20px;
+    text-align: center;}
+
+
+/* Form contacto */
+.form-wrapper {
+    display: flex;
+    max-width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+    border-radius: 5px;
+    padding: 0px 40px 10px;
+    background:rgb(31, 56, 34);
+}
+
+.form-wrapper span {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-wrapper h4 {
+    color: #fff;
+    font-size: 0.75rem;
+}
+
+.form-wrapper form {
+    margin: 10px 0 10px;
+}
+
+form .form-control {
+    /*height: 50px;*/
+    position: relative;
+    margin-top: 10px;
+}
+
+.form-control input {
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+    content: 10px;
+}
+
+.form-control label {
+    pointer-events: none;
+    color: #8c8c8c;
+    transition: all 0.1s ease;
+}
+
+form .form-tel {
+    display:flex;
+    margin-top: 10px;
+}
+
+.form-tel input {
+    width: 50%;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0px 20px 0px 0px;
+} 
+
+.form-tel label {
+    pointer-events: none;
+    color: #8c8c8c;
+    transition: all 0.1s ease;
+}
+
+.form-tel radio {
+    pointer-events: none;
+    color: #8c8c8c;
+    transition: all 0.1s ease;
+    padding: 10px;
+}
+
+
+.form-botones textarea {
+    width: 100%;
+    /*pointer-events: none;*/
+    color: #8c8c8c;
+    /*transition: all 0.1s ease;*/
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.form-botones input {
+    width: 50%;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.form-botones input:hover {
+    background-color: #036f19;
+    color: white;
+}
+
+@media (max-width: 740px) {
+    body::before {
+        display: none;
+    }
+
+    .form-wrapper {
+        padding: auto;
+        margin-top: 10px;
+        width: 100%;
+        top: 50%;
+    }
+    
+    .form-wrapper form {
+        margin: 5px 0 65px;
+    }
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #dff0f8;
+    padding: 5px;
+    text-align: center;
+}
+
+footer section {
+    background-color: #dff0f8;
+    padding: 15px 15px 0 0 ;
+}
+
+.footer-nav {
+    /*background-color: #3d7508;*/
+    background:rgb(31, 56, 34);
+    font-weight: 700;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+/* terminos.html - Terminos y Condiciones */
+
+.terminos {
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+
+.terminos span {
+    color: #3d7508;
+    font-weight: bold;
+    padding : 10px;
+}
+
+.terminos p {
+    color:black ;
+    text-align: justify;
+    padding : 10px;
+}
+
+  
+/* Footer Traido - iconos, tarjetas y redes*/  
+
+.social-link {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 25px;
+    padding: 10px 0;
+    border-radius: 50%;
+    box-sizing: border-box;
+    font-size: 1em;
+    
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em
+}
+
+.fa-3x {
+    font-size: 3em
+}
+
+#whatsapp-icon {
+
+    position: fixed;
+    
+    bottom: 25px; /* Ajusta la posición vertical según tus necesidades */
+    
+    right: 20px; /* Ajusta la posición horizontal según tus necesidades */
+    
+    z-index: 1000;
+    
+    }
+    
+#whatsapp-icon img {
+    
+    width: 70px; /* Ajusta el tamaño del icono según tus necesidades */
+    
+    height: auto;
+    
+    border-radius: 25%; /* Hace que el icono tenga forma circular */
+    
+    }
