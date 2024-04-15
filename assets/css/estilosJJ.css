@@ -309,9 +309,11 @@ form .form-tel {
     margin: 0px 20px 0px 0px;
 } 
 
-.form-tel::placeholder,
-#miInput::placeholder {
-    color: rgb(34, 105, 2);
+
+.form-control input::placeholder, .form-tel input::placeholder {
+    /*color: rgb(34, 105, 2);*/
+    color: red;
+
 }
 
 .form-tel label {
