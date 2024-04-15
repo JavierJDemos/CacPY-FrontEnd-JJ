@@ -308,8 +308,9 @@ form .form-tel {
     margin: 0px 20px 0px 0px;
 } 
 
-.form-tel::placeholder, .form-control::placeholder {
-    color: #d610c2;
+.form-tel::placeholder,
+#miInput::placeholder {
+    color: rgb(34, 105, 2);
 }
 
 .form-tel label {
