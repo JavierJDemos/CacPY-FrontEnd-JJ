@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap')
@@ -26,48 +27,66 @@
 
 body {
     background-color: #dff0f8;
+    color: #3d7508;
 }
 
 header {
     background-color: #fff;
+
     padding: 0 15px 15px 0;
     
 }
 
-header #logo {
-    display: flex;
-    align-items: center; /* Center vertically */
-           
+#logo {
+    display: inline-block;
+    padding: 10px 10px 0px 0px;
 }
 
-#span1 {
+.container-header {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    
+    
+}
+
+.flex-titulo {
+    line-height: 100%;
+    flex: 1;
+    padding: 10px 10px 0px 0px;
+}
+
+.span1 {
     font-family: "M PLUS Rounded 1c";
-    font-optical-sizing: auto;
+    font-weight: xx-large;
     font-style: normal;
     font-weight: 800;
     font-size: 3rem;
-    padding: auto;
-    margin: 0;
-    color: #3d7508;
+    
 }
 
-#span2 {
+.span2 {
     font-family: "M PLUS Rounded 1c";
     font-weight: 400;
     font-style: italic;
-    padding: auto;
-    margin: 0;
-    color: #3d7508;
+    white-space: nowrap;
     }
 
+
+.texto {
+    line-height: 80%;
+    margin: 0; /* asegurar que no haya margen entre el texto y el borde inferior */
+}
+
 nav {
-    /*background-color: #3d7508;*/
+    display: inline-block;
     background:rgb(45,139,3);
     font-weight: 700;
-    margin: 20px 0 0 0;
     padding: 10px;
-    width: 100%;
-    display: inline-block;
+    
+    text-align: center;
+    border-radius: 10px;
+    
 }
 
 nav a {
@@ -80,10 +99,6 @@ nav a:hover {
     text-decoration: underline blue;
 }
 
-body {
-    background-color: #ffffff;
-    color: #3d7508;
-}
 
 p {
     text-align: center;
@@ -92,8 +107,15 @@ p {
 
 main {
     background-color: #ffffff;
-    padding: 10px 10px 15px 15px;
+    /*padding: 10px 10px 0px 0px ;*/
+    
 
+}
+
+.maintopmargin{
+    height: 10px;
+    background-color:rgb(45,139,3);
+    margin: 0px 0px 15px 0px;
 }
 
 main h1 {
