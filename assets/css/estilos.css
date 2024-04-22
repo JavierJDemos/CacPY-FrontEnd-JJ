@@ -231,6 +231,36 @@ main h1 {
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*Sección de quienes somos*/
+
+.quienes {
+    padding: 20px;
+    
+}
+
+.contenedor-quienes {
+    display: flex;
+    align-items: space-around;
+    margin-bottom: 10px;
+}
+
+#quienes-div1 {
+    padding: 10px;
+    text-align: left;
+}
+
+#quienes-div2 {
+    padding: 10px;
+    text-align: center;
+}
+
+#quienes-div3 {
+    padding: 10px;
+    text-align: right;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*Sección de Donde Estamos*/
 
 #mapa  {
@@ -430,6 +460,10 @@ footer {
 footer section {
     background-color: #dff0f8;
     padding: 15px 15px 0 0 ;
+}
+
+footer section div img {
+    border-radius: 25% ;
 }
 
 .footer-nav {
