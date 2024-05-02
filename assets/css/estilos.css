@@ -327,8 +327,8 @@ main h1 {
 
 .iframemapa {
     border: 10px solid rgb(45, 139, 3);
-    padding: 10px;
-    width: 100vh; /* Mapa ocupa todo el ancho del contenedor */
+    padding: 3px;
+    width: 90vh; /* Mapa ocupa todo el ancho del contenedor */
     height: 75vh;  /*Altura igual al 80% del ancho ocupado */
     max-height: 600px; /* Altura máxima para que no sea demasiado grande */
 }
