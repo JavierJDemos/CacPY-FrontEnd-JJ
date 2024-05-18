@@ -592,18 +592,13 @@ footer section div img {
 /*productos.html*/
 
 
-.container-productos1 {
+.container-productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 10px;
+    gap: 10px;
 }
-.container-productos {
-    display: grid;
-    grid-template-rows: repeat(3, 4fr);
-    justify-content: space-evenly;
-    margin: 10px;
-}
+
 
 .tarjeta-productos {
     width: 200px;
