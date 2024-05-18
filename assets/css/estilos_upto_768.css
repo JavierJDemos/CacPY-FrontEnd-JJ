@@ -55,7 +55,7 @@ header {
 
 /*Div Estilos del logo*/
 #logo {
-    width: 20%; /* Cada uno ocupa la mitad del contenedor */
+    width: auto; /* Cada uno ocupa la mitad del contenedor */
     box-sizing: border-box; /* Incluye el padding y border en el ancho */
     padding: 10px; /* Añade un poco de espacio interno */
 }
@@ -105,9 +105,10 @@ header {
 /*Div Estilos del nav */
 .flex-nav {
     display: flex;
+    justify-self:flex-end;
     justify-content: center; /* Distribuye los elementos de manera uniforme */
     background: rgb(45, 139, 3);
-    width: 20%; /* Ocupa el ancho completo del contenedor */
+    width: auto; /* Ocupa el ancho completo del contenedor */
     border-radius: 0px;
 }
 
@@ -309,20 +310,30 @@ main h1 {
 .dondemapa {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra los elementos horizontalmente */
+    /*align-items: center; /* Centra los elementos horizontalmente */
     justify-content: center; /* Centra los elementos verticalmente */
-    padding: auto;
+    padding: 0;
+    
 }
 
 .contenedormapa {
     display: grid;
     grid-template-columns: 5% 90% 5%;
     /* Define los tamaños de las columnas */
-    grid-gap: 10px;
+    grid-gap: 00px;
     /* Espacio entre las celdas */
     border: 0px solid black;
     /* Borde para visualización */
-    justify-content: center;
+    justify-items: center;
+    
+}
+
+.item-mapai {
+    border: 0px solid black;
+    /* Borde para visualización */
+    padding: 0px;
+    /* Espacio interno */
+    
 }
 
 .item-mapa {
@@ -330,6 +341,15 @@ main h1 {
     /* Borde para visualización */
     padding: 10px;
     /* Espacio interno */
+    
+}
+
+.item-mapad {
+    border: 0px solid black;
+    /* Borde para visualización */
+    padding: 0px;
+    /* Espacio interno */
+    
 }
 
 /* Estilos adicionales para hacer más visible */
@@ -340,11 +360,13 @@ main h1 {
 
 .iframemapa {
     border: 10px solid rgb(45, 139, 3);
-    padding: 10px;
-    width: 70vh; /* Mapa ocupa todo el ancho del contenedor */
-    height: 50vh;  /*Altura igual al 80% del ancho ocupado */
+    padding: 3px;
+    width: 50vh; /* Mapa ocupa todo el ancho del contenedor */
+    height: 45vh;  /*Altura igual al 80% del ancho ocupado */
+    
     max-height: 600px; /* Altura máxima para que no sea demasiado grande */
 }
+
 
 /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*Sección de Contacto*/
