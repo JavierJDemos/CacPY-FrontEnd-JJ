@@ -591,6 +591,13 @@ footer section div img {
 /*---------------------------------------------------------------*/
 /*productos.html*/
 
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
 
 .container-productos {
     display: flex;
@@ -605,7 +612,7 @@ footer section div img {
     border: 1px solid black;
     border-radius: 10px;
     margin-top: 10px;
-    
+    height: 100%;
     
     
 }
