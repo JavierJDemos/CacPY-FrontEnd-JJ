@@ -60,7 +60,8 @@
             <br>
         </div>
         -->
-
+        <!-- fUNCIONA LOCALMENTE -->
+        <!--
             <div id="app">
                 <div class="container-productos">
                     <div v-for="elemento in datos" v-bind:key="elemento.id">
@@ -74,7 +75,20 @@
                 </div>
             </div>
             <br>
-
+            -->
+            <div id="app">
+                <div class="container-productos">
+                    <div v-for="elemento in datos" v-bind:key="elemento.id">
+                        <div class="tarjeta-productos">
+                            <img width="200" v-bind:src="elemento.Foto" alt="Foto del producto">
+                            <p>Producto: {{elemento.Nombre}}</p>
+                            <p>Marca: {{elemento.Marca}}</p>
+                            <p>Descripción del producto: {{elemento.Descripcion}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
 
     </main>
 
