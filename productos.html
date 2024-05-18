@@ -45,7 +45,7 @@
             
             <div id="app">
                 <div class="container-productos">
-                    <div v-for="elemento in datos" :key="elemento.id" class="tarjeta-productos">
+                    <div v-for="elemento in datos" :key="elemento.id">
                         <div class="tarjeta-productos">
                             <img width="200" v-bind:src="elemento.Foto" alt="elemento.Foto">
                             <p>Producto: {{elemento.Nombre}}</p>
