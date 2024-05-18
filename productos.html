@@ -47,7 +47,7 @@
     <div class="container-productos">
 
       <template v-for="elemento in datos" :key="elemento.id" class="tarjeta-productos">
-        <div class="cuerpo">
+        <div class="tarjeta-productos">
           <img width="200" v-bind:src="elemento.Foto" alt="elemento.Foto">
           <p>Producto: {{elemento.Nombre}}</p>
           <p>Marca: {{elemento.Marca}}</p>
