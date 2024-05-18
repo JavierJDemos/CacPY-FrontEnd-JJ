@@ -46,14 +46,14 @@
             <div id="app">
                 <div class="container-productos">
                     
-                    <div v-for="elemento in datos" >
+                    <template v-for="elemento in datos" :key=elemento.id" >
                         <div class="tarjeta-productos">
                             <img width="200" v-bind:src="elemento.Foto" alt="elemento.Foto">
                             <p>Producto: {{elemento.Nombre}}</p>
                             <p>Marca: {{elemento.Marca}}</p>
                             <p>Descripcion del producto: {{elemento.Descripcion}}</p>
                         </div>
-                    </div>
+                    </template>
                 </div>
             </div>
             <br>
