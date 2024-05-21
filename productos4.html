@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="./assets/css/estilos.css" media="screen and (min-width: 1025px)">
 </head>
 <body>
-    <div class="productos">
-        <div id="app">
-            <div class="container-productos">
-                <div v-for="elemento in datos" v-bind:key="elemento.id" class="tarjeta-productos">
-                    <div>
-                        <img width="200" v-bind:src="elemento.Foto" :alt="'Foto de ' + elemento.Nombre">
-                        <p>Producto: {{ elemento.Nombre }}</p>
-                        <p>Marca: {{ elemento.Marca }}</p>
-                        <p>Descripción del producto: {{ elemento.Descripcion }}</p>
-                    </div>
-                </div>
-            </div>
+    
+<div class="productos">
+  <div id="app">
+    <div class="container-productos">
+      <div v-for="elemento in datos" v-bind:key="elemento.id" class="tarjeta-productos">
+        <div>
+          <img width="200" v-bind:src="elemento.Foto" :alt="'Foto de ' + elemento.Nombre" />
+          <p>Producto: {{ elemento.Nombre }}</p>
+          <p>Marca: {{ elemento.Marca }}</p>
+          <p>Descripción del producto: {{ elemento.Descripcion }}</p>
         </div>
+      </div>
     </div>
+  </div>
+</div>
+
 <!-- Scripts JS de la página -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="./assets/js/electro.js"></script>
