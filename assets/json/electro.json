@@ -7,35 +7,35 @@
         "Descripcion": "Jarra plastica, 1,5 lts"
     },
     {
-        "Foto": "./assets/img/Productos/1licuadora.jpg",
+        "Foto": "./assets/img/Productos/2balanza.jpg",
         "id": 2,
         "Nombre": "Balanza",
         "Marca": "Aspen",
         "Descripcion": "de cocina, digital"
     },
     {
-        "Foto": "./assets/img/Productos/1licuadora.jpg",
+        "Foto": "./assets/img/Productos/3aspiradora.jpg",
         "id": 3,
         "Nombre": "Aspiradora",
         "Marca": "Daihatsu",
         "Descripcion": "20 lts, 1200 w"
     },
     {
-        "Foto": "./assets/img/Productos/1licuadora.jpg",
+        "Foto": "./assets/img/Productos/4heladera.jpg",
         "id": 4,
         "Nombre": "Heladera",
         "Marca": "Ariston",
         "Descripcion": "Inverter, 397 lts"
     },
     {
-        "Foto": "./assets/img/Productos/1licuadora.jpg",
+        "Foto": "./assets/img/Productos/5lavarropas.jpg",
         "id": 5,
         "Nombre": "Lavarropas",
         "Marca": "Candy",
         "Descripcion": "Smart, 6 kg, 800 RPM"
     },
     {
-        "Foto": "./assets/img/Productos/1licuadora.jpg",
+        "Foto": "./assets/img/Productos/6aireacondicionado.jpg",
         "id": 6,
         "Nombre": "Aire acondicionado",
         "Marca": "Alaska",
