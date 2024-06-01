@@ -133,7 +133,7 @@
         "Descripcion": "Lavado programables 1-23 hs, digital"
     },
     {
-        "Foto": "./assets/img/Productos/20secarropas.jpg
+        "Foto": "./assets/img/Productos/20secarropas.jpg",
         "id": 20,
         "Nombre": "Secarropas",
         "Marca": "Kohinor",
